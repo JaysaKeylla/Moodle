@@ -62,7 +62,6 @@ module.exports = {
     new webpack.NoEmitOnErrorsPlugin()
   ],
   resolve: {
-    // you can now require('file') instead of require('file.coffee')
     extensions: ['.js', '.json', '.jsx'],
     alias: {
         'bower_components': path.join(__dirname, 'bower_components'),
