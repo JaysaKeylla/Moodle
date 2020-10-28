@@ -5,8 +5,6 @@ const open = require('open');
 const dotenv = require('dotenv');
 const config = require('../webpack.config.dev');
 
-/* eslint-disable no-console */
-
 dotenv.config();
 
 const port = process.env.PORT || 4040;
